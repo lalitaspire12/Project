@@ -1,0 +1,50 @@
+@model VEHCILE.Models.Driver;
+
+<tr id="row-@ViewBag.count">
+    <th>
+        @Html.DropDownListFor(v=>v.DriverUserId,(SelectList)ViewData["ApprovedDriversDropdown"],new{@class="form-control"})
+    </th>
+
+    <th>
+        @Html.DropDownListFor(t=>t.VehcileTypeId,new SelectList(new List<Object> {
+        new{value="1",text="None"},
+        new{value="2",text="Car"},
+        new{value="3",text="(8)Van"},
+        },
+        "value","text"),new{@class="form-control"})
+    </th>
+
+    <th>
+        @Html.DropDownListFor(v=>v.VehcileAddonId,(SelectList)ViewData["VehicleAddonsDropdown"],new{@class="form-control"})
+    </th>
+
+    <th>
+        <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-danger active">
+                @Html.RadioButtonFor(m=>m.Pickup,1,new{@checked=true})
+                Aspire
+            </label>
+            <label class="btn btn-danger active">
+                @Html.RadioButtonFor(m=>m.Pickup,2,new{@checked=true})
+                Guindy
+            </label>
+        </div>
+    </th>
+    <th>
+        @if (ViewBag.count >= 0)
+        {
+            <button class="btn btn-danger" onclick="deleteRow(@ViewBag.count);">Delete</button>
+        }
+    </th>
+
+    <div>
+        @if (!string.IsNullOrEmpty(ViewBag.SeatsFullMessage)) // this is for full seat
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewBag.SeatsFullMessage
+            </div>
+        }
+
+        @Html.ValidationSummary()
+    </div>
+</tr>

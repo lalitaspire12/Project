@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lalit.hukam\\Downloads\\Aspire\\Lalit Veh\\Vehcile\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Vehcile Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vehcile Project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lalit.hukam\\Downloads\\Aspire\\Lalit Veh\\Vehcile\\wwwroot\\Images\\license.jfif",
+      "PackagePath": "staticwebassets\\Images\\license.jfif"
+    },
+    {
+      "Id": "C:\\Users\\lalit.hukam\\Downloads\\Aspire\\Lalit Veh\\Vehcile\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lalit.hukam\\Downloads\\Aspire\\Lalit Veh\\Vehcile\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lalit.hukam\\Downloads\\Aspire\\Lalit Veh\\Vehcile\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Vehcile Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Vehcile Project.props",
+      "PackagePath": "build\\Vehcile Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Vehcile Project.props",
+      "PackagePath": "buildMultiTargeting\\Vehcile Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Vehcile Project.props",
+      "PackagePath": "buildTransitive\\Vehcile Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
